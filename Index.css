@@ -1,0 +1,799 @@
+body, p, h1, h2, h3, h4, table, td, th, ul, ol 
+{
+	font-family: verdana,helvetica,arial,sans-serif;
+}
+
+
+body 
+{
+	width: 1000px; /*usable for 1024 resolution*/
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F6F4F0;
+}
+
+
+/*--------------------------------- top_navigation's style begin ---------------------------------------*/
+#top_navigation
+{
+	margin-top: 70px;
+	//margin-bottom: 25px;
+	background: -webkit-linear-gradient(#FFFFFF , #C0C0C0 , #FFFFFF); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#FFFFFF , #C0C0C0 , #FFFFFF); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#FFFFFF , #C0C0C0 , #FFFFFF); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#FFFFFF , #C0C0C0 , #FFFFFF); /* Standard syntax */
+	border: 1px solid #E6E6E6; 
+	height: 35px;
+	box-shadow: 2px 2px 2px #D9D9D9; 
+	border-radius: 5px;
+}
+
+.moto_lart
+{
+	//position: absolute; 
+	//width: 120px;
+	//height: 94px;	
+	margin: 10px;
+	margin-top: 15px;
+}
+
+/*#top_logo
+{
+	width: 40px;
+	height: 40px;
+}*/
+
+#top_logo
+{	
+	margin-top: -70px;
+	float: left;
+	-webkit-animation: mymove 15s infinite; /* Chrome, Safari, Opera */
+	-webkit-animation: animation-timing-function: ease-in-out; /* Chrome, Safari, Opera */
+	animation: mymove 15s infinite;
+	animation-timing-function: ease-in-out;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove 
+{
+	50% {-webkit-transform: rotateY(180deg);}
+}
+
+/* Standard syntax */
+@keyframes mymove 
+{
+	50% {transform: rotateY(180deg);}
+}
+
+#top_menu
+{	
+}
+
+ul
+{
+	margin-top: 5px;
+	margin-left: 160px;
+	list-style-type: none;
+}
+
+li 
+{
+	display: inline;
+	margin-right: 45px;
+}
+
+#a_top
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;	
+}
+
+#a_top:hover 
+{
+	color: #F80000;		
+}
+/*--------------------------------- top_navigation's style end -----------------------------------------*/
+/********************************************************************************************************/
+/*--------------------------------- slider wraper's style begin ----------------------------------------*/
+#slider_wrapper 
+{
+   //display: block;
+	background: -webkit-linear-gradient(left top, #FF9999 , #B20000); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FF9999 , #B20000); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FF9999 , #B20000); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FF9999 , #B20000); /* Standard syntax */
+	border: 1px solid #800000;
+	box-shadow: 20px 20px 3px #D9D9D9;
+	margin-bottom: 50px;	
+	//width: 600px;
+	height: 330px;
+	//margin-left: auto;
+	//margin-right: auto;
+	//margin-top: 100px;
+}
+
+#slider_left
+{
+	background-color: grey;
+	width: 282px;	
+	height: 282px;
+	margin: 25px;
+	float: left;	
+	border-right: 1px solid #FFFFFF; 
+}
+
+#slider_center
+{	
+	//background-color: blue;
+	width: 282px;	
+	height: 282px;
+	margin: 25px;
+	float: left;	
+}
+
+#slider_right
+{
+	background-color: grey;
+	width: 282px;	
+	height: 282px;
+	margin: 25px;
+	float: right;
+	border-left: 1px solid #FFFFFF;
+}
+
+#slider 
+{
+	//background-color: yellow;
+	//display: block;
+	position: absolute;
+	width: 282px;	
+	//height: 282px;
+	//margin-left: 600px;
+	//margin-right: auto;
+	//margin-top: 25px;
+	//margin-bottom: 25px;
+	//position: fixed;
+	//border: 1px solid #800000; //do fshihet
+	//left: -20px;
+	//border-radius: 5px;	
+	//float: left;		
+}
+
+#slider .sp 
+{
+	//float: left;	
+	//background-color: green;
+	width: 282px;
+	//height: auto;
+	//max-width: 100%;
+	//margin-left: auto;
+	//margin-right: auto;
+  	margin: auto;
+	//padding: 10px;
+	position: absolute;
+}
+
+.sp 
+{
+	position: absolute; 
+	//width: 100%;
+}
+
+#button-previous 
+{ 
+	position: relative;
+	top: 121px;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	float: left;
+}
+
+#button-next 
+{
+	position: relative;
+	top: 121px;
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-right: 10px;
+}
+/*--------------------------------- slider wraper's style begin --------------------------------------------*/
+/************************************************************************************************************/
+/*--------------------------------- slider wraper 2's style begin ------------------------------------------*/
+#slider_wrapper2 
+{
+   //display: block;
+	background: -webkit-linear-gradient(left top, #FF9999 , #B20000); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FF9999 , #B20000); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FF9999 , #B20000); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FF9999 , #B20000); /* Standard syntax */
+	border: 1px solid #800000;
+	box-shadow: 3px 3px 2px #D9D9D9;
+	//margin-bottom: 50px;	
+  	//width: 650px;
+	height: 350px;
+	//margin-left: auto;
+	//margin-right: auto;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+
+/*#slider_left2
+{
+	background-color: grey;
+	width: 282px;	
+	height: 282px;
+	margin: 25px;
+	float: left;	
+	border-right: 1px solid #FFFFFF; 
+}*/
+
+#slider_center2
+{	
+	//background-color: blue;
+	width: 600px;	
+	height: 300px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 3px 2px #800000;
+	border-radius: 15px;
+	//float: left;	
+}
+
+#slider2 
+{
+	//background-color: yellow;
+	//display: block;
+	position: absolute;
+	width: 600px;	
+	height: 300px;
+	//margin-left: 600px;
+	//margin-right: auto;
+	//margin-top: 25px;
+	//margin-bottom: 25px;
+	//position: fixed;
+	//border: 1px solid #800000; //do fshihet
+	//left: -20px;
+	//border-radius: 5px;	
+	//float: left;		
+}
+
+#slider_right2
+{
+	background-color: grey;
+	width: 298px;	
+	height: 300px;
+	margin: 25px;
+	float: right;
+	//border-left: 1px solid #FFFFFF;
+}
+
+.sp3
+{
+	position: absolute; 
+	width: 298px;	
+	height: 300px;	
+}
+
+#slider2 .sp2 
+{
+	//float: left;	
+	//background-color: green;
+	width: 600px;
+  	height: 300px;
+	//max-width: 100%;
+	//margin-left: auto;
+	//margin-right: auto;
+  	margin: auto;
+	//padding: 10px;
+	position: absolute;
+	border-radius: 15px;
+}
+
+.sp2
+{
+	position: absolute; 
+	//width: 100%;
+}
+
+#button-previous2 
+{ 
+	position: relative;
+	top: 130px;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	float: left;
+}
+
+#button-next2 
+{
+	position: relative;
+	top: 130px;
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-right: 10px;
+}
+/*--------------------------------- slider wraper 2's style end ------------------------------------*/
+/****************************************************************************************************/
+/*--------------------------------- article's style begin ------------------------------------------*/
+#product_title
+{
+	height: 30px;
+	background: -webkit-linear-gradient(left top, #FFFFFF , #C0C0C0); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FFFFFF , #C0C0C0); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FFFFFF , #C0C0C0); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FFFFFF , #C0C0C0); /* Standard syntax */	
+	border: 1px solid #E6E6E6;  
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 3px 3px 2px #D9D9D9;
+	margin-top: 25px;
+}
+
+.shenja_m
+{
+	margin-left: -1px;
+	margin-top: 8px;
+	float: left;	
+}
+
+.tabela
+{
+	width: 98%;
+	margin-top: 5px;
+	float: left;
+}
+
+.tbl_qel_1
+{	
+	width: 50%;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000080;
+}
+
+.tbl_qel_2
+{	
+	width: 50%;
+	color: #000080;
+	text-align: right;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.shenja_d
+{
+	margin-right: -1px;
+	margin-top: 8px;
+	float: right;	
+}
+
+#productet
+{
+	height: 494px;
+	background: -webkit-linear-gradient(left top, #E6E6FF , #000080); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #E6E6FF , #000080); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #E6E6FF , #000080); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #E6E6FF , #000080); /* Standard syntax */	
+	border: 1px solid #000080; //#800000;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 3px 3px 2px #D9D9D9;	
+	padding: 5px;
+}
+
+#product
+{
+	width: 237px;
+	height: 237px;
+	margin: 5px;
+	border-radius: 15px;
+	float: left;
+}
+
+#product_img
+{
+	width: 237px;
+	height: 237px;
+	border-radius: 15px;
+	box-shadow: 3px 3px 2px #000066; //#880000;
+}
+
+#price
+{
+	border-radius: 5px;
+	border-color: #8080FF; //#800000;#E00000;
+	border-style: inset;		
+	background: -webkit-linear-gradient(left top, #FFFFFF , #0000FF); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FFFFFF , #0000FF); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FFFFFF , #0000FF); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FFFFFF , #0000FF); /* Standard syntax */
+	width: 31%;
+	margin-left: auto;
+	margin-top: -30px;
+	margin-right: 4px;
+	text-align: right;
+	font-size: 14px;
+	position: relative;
+}
+/*--------------------------------- article's style end --------------------------------------------*/
+/****************************************************************************************************/
+/*--------------------------------- catalog's style begin ------------------------------------------*/
+#catalog
+{	
+	background: -webkit-linear-gradient(left top, #FF9999 , #B20000); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FF9999 , #B20000); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FF9999 , #B20000); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FF9999 , #B20000); /* Standard syntax */
+   border: 1px solid black #800000;
+   border-radius: 5px;	
+	box-shadow: 3px 3px 3px #D9D9D9;
+	height: 729px;
+	margin-left: auto;
+	margin-top: 25px;
+	margin-right: auto;
+	padding: 5px;
+}
+
+#left_catalog_caption
+{	
+	background: -webkit-linear-gradient(left top, #FFFFFF , #C0C0C0); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FFFFFF , #C0C0C0); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FFFFFF , #C0C0C0); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FFFFFF , #C0C0C0); /* Standard syntax */	
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #E6E6E6;  
+	box-shadow: 3px 3px 2px #800000;
+	width: 482px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+#left_catalog
+{		
+	background-color: gray;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 1px solid #E6E6E6;  
+	box-shadow: 3px 3px 2px #800000;
+	width: 482px;
+	height: 685px;
+	float: left;
+	position: relative;
+}
+
+#right_catalog_caption
+{
+	background: -webkit-linear-gradient(left top, #FFFFFF , #C0C0C0); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FFFFFF , #C0C0C0); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FFFFFF , #C0C0C0); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FFFFFF , #C0C0C0); /* Standard syntax */	
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px solid #E6E6E6;  
+	box-shadow: 3px 3px 2px #800000;	
+	width: 482px;
+	height: 30px;
+	margin-top: 5px;
+	margin-right: 5px;	
+	float: right;
+}
+
+#right_catalog
+{
+	background-color: white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 1px solid #E6E6E6;  
+	box-shadow: 3px 3px 2px #800000;
+	width: 482px;
+	height: 685px;
+	float: right;
+	position: relative;
+}
+
+.img_catalog
+{
+	width: 100%;	
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	position: absolute;
+}
+
+#left_catalog_wrapper
+{
+	width: 484px;
+	height: 687px;
+	margin-left: 5px;
+	float: left;
+}
+
+#right_catalog_wrapper
+{
+	width: 484px;
+	height: 687px;
+	margin-right: 5px;
+	float: right;
+}
+
+#button-previous3, #button-previous4
+{
+	position: relative;
+	margin-top: -364px;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	float: left;
+}
+
+#button-next3, #button-next4
+{
+	position: relative;
+	margin-top: -364px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	float: right;
+}
+
+#catalog_text
+{
+	margin-top: 8px;	
+	text-align: center;	
+	font-size: 12px;
+	font-weight: bold;
+	color: #000080;	
+}
+/*--------------------------------- catalog's style end -------------------------------------------*/
+/***************************************************************************************************/
+/*--------------------------------- info's style begin --------------------------------------------*/
+#info
+{	
+	height: 172px;	
+}
+
+#dyqani_afer
+{
+	background: -webkit-linear-gradient(left top, #E6E6FF , #000080); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #E6E6FF , #000080); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #E6E6FF , #000080); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #E6E6FF , #000080); /* Standard syntax */	
+	border: 1px solid #000080; //#800000;
+	margin-top: 25px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px #D9D9D9;		
+	width: 241px;
+	height: 160px;
+	margin-left: 0;
+	float: left;	
+}
+
+#p_titulli
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #000080;
+	text-align: center;
+	margin-top: 32px;
+}
+
+#p_teksti
+{
+	font-size: 12px;
+	font-style: italic;
+	color: #000080;
+	font-weight: lighter;
+	text-align: center;	
+}
+
+#lista
+{
+	margin-left: 12px;
+   margin-top: 3px;
+	font-size: 12px;
+	color: #000080;
+	width: 50%;
+	height: 25px;
+	float: left;
+}
+
+#button_submit
+{
+	background: -webkit-linear-gradient(left top, #FFFFFF , #0000FF); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FFFFFF , #0000FF); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FFFFFF , #0000FF); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FFFFFF , #0000FF); /* Standard syntax */
+   float: right;
+	margin-right: 12px;
+	margin-top: 3px;
+	color: #000080;
+	font-size: 12px;	
+	width: 35%;
+	height: 25px;
+}
+
+#karriera
+{
+	background: -webkit-linear-gradient(left top, #FF9999 , #B20000); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FF9999 , #B20000); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FF9999 , #B20000); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FF9999 , #B20000); /* Standard syntax */
+	border: 1px solid #800000;
+	margin-top: 25px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px #D9D9D9;	
+	width: 240px;
+	height:160px;
+	margin-left: 10px;
+	float: left;	
+}
+
+#p_titulli2
+{
+	width: 155px;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000080;
+	text-align: center;
+	margin-top: 32px;
+	position: absolute;
+}
+
+#img_karriera
+{
+	float: right;
+	height: 110%;
+	margin-top: -7px;
+	margin-right: -11px;
+}
+
+#p_teksti2
+{
+	width: 120px;
+	float: left;	
+	font-size: 12px;
+	font-style: italic;
+	color: #000080;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 59px;
+	position: absolute;
+}
+
+#apliko
+{
+	color: #000080;	
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#apliko:hover
+{
+	color: #F80000;
+}
+
+#shenja_posht
+{
+	float: left;
+	width: 12px;
+	margin-top: 20px;
+	margin-left: -1px;	
+}
+
+#mbrendia
+{
+   background: -webkit-linear-gradient(#C0C0C0 , #FFFFFF , #C0C0C0); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#C0C0C0 , #FFFFFF , #C0C0C0); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#C0C0C0 , #FFFFFF , #C0C0C0); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#C0C0C0 , #FFFFFF , #C0C0C0); /* Standard syntax (must be last) */	
+	border-left: 1px solid #E6E6E6;
+	width: 220px;
+	height: 160px;
+	margin-top: 0px;
+	margin-right: 0px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+	float: right;
+}
+
+#cakto_emrin
+{
+	background: -webkit-linear-gradient(left top, #E6E6FF , #000080); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #E6E6FF , #000080); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #E6E6FF , #000080); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #E6E6FF , #000080); /* Standard syntax */
+	border: 1px solid #000080; //#800000;
+	margin-top: 25px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px #D9D9D9;	
+	width: 240px;
+	height: 160px;
+	margin-left: 10px;
+	float: left;
+}
+
+#cakto_emrin_2
+{
+	background: -webkit-linear-gradient(left top, #FF9999 , #B20000); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #FF9999 , #B20000); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #FF9999 , #B20000); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #FF9999 , #B20000); /* Standard syntax */
+	border: 1px solid #800000;
+	margin-top: 25px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px #D9D9D9;	
+	width: 241px;
+	height: 160px;
+	margin-left: 10px;
+	float: right;
+}
+/*--------------------------------- info's style end ----------------------------------------------*/
+/***************************************************************************************************/
+/*--------------------------------- bttom menu's style begin --------------------------------------*/
+#bottom_menu
+{
+	height: 70px;	
+	background: -webkit-linear-gradient(#FFFFFF , #C0C0C0 , #FFFFFF); /* For Safari 5.1 to 6.0 left top, */
+   background: -o-linear-gradient(#FFFFFF , #C0C0C0 , #FFFFFF); /* For Opera 11.1 to 12.0 bottom right, */
+   background: -moz-linear-gradient(#FFFFFF , #C0C0C0 , #FFFFFF); /* For Firefox 3.6 to 15 bottom right, */
+   background: linear-gradient(#FFFFFF , #C0C0C0 , #FFFFFF); /* Standard syntax to bottom right, */
+	border: 1px solid #E6E6E6;  
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px #D9D9D9;		
+	margin-top: 40px;
+	margin-bottom: 15px;	
+}
+
+.logo_posht
+{
+	width: 79px;	
+	height: 60px;		
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 5px;
+	margin-bottom: auto;
+	border-left: 1px solid #FFFFFF;	
+	float: right;
+}
+
+#table_bottom
+{	
+	width: 84%;	
+	margin-left: 30px;	
+	float: left;	
+}
+
+#a_bottom
+{
+	text-decoration: none;
+	font-size: 11px;
+	color: black;		
+}
+
+#a_bottom:hover
+{
+	color: #F80000;
+}
+
+#shenja_tabel
+{
+	vertical-align: middle;	
+	height: 8px;	
+}
+
+#table_row
+{
+	height: 30px;
+}
+/*--------------------------------- bttom menu's style end ----------------------------------------*/
